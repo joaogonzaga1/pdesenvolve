@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Formulário de Satisfação</Title>
+    </head>
+    <body>
+        <h1>Dados Pessoais</h1>
+        <form action="pagina_destino.html" method="post">
+            <p>
+                <label for="nome"> Nome </label>
+                <input type="text" placeholder="Nome" id="nome">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="text" placeholder="E-mail" id="email">
+            </p>
+            <p>
+                <label for="telefone"> Telefone para contato </label>
+                <input type="number" placeholder="Número" id="telefone">
+            </p>
+            <h1>Questionário</h1>
+            <p>
+                Como você avalia a atual gestão de Empresa?
+                <input type="radio" id="péssimo" name="gestao" />
+                <label for=" péssimo">Péssimo</label>
+                <input type="radio" id="ruim" name="gestao" />
+                <label for=" ruim">Ruim</label>
+                <input type="radio" id="regular" name="gestao" />
+                <label for=" regular">Regular</label>
+                <input type="radio" id="bom" name="gestao" />
+                <label for=" bom">Bom</label>
+                <input type="radio" id="otimo" name="gestao"/>
+                <label for=" otimo">Ótimo</label>
+            </p>
+            <p> Nossos preços, com relação aos nossos concorrentes, estão:
+                <input type="radio" id="abaixo" name="preço">
+                <label for="abaixo"> Abaixo</label>
+                <input type="radio" id="semelhantes" name="preço">
+                <label for="semelhantes">Semelhante</label>
+                <input type="radio" id="acima" name="preço">
+                <label for="acima">Acima</label>
+            </p>
+            <p>
+                Por quem foi atendido?
+                <select>
+                    <option>Lucas</option>
+                    <option>Amanda</option>
+                    <option>Carlos</option>
+                    <option>Felipe</option>
+                    <option>Julia</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="compartilhar">
+                <label for="compartilhar"> Autorizo compartilhar estas informações com terceiros</label>
+            </p>
+            <input type="submit" value="Enviar">
+        </form> 
+    </body>
+
+</html>
